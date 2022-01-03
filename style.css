@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300;400;600&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif; */
+
+body{
+  width: 1440px;
+  margin-top: 95px;
+  background-color: hsl(217, 54%, 11%);
+}
+
+/* Card Desgin css code */
+.card{
+  width: 300px;
+  margin: auto;
+  padding: 22px;
+  background-color:  hsl(216, 50%, 16%);
+  border-radius: 3.5%;
+  box-shadow: 0px 0px 2px black;
+}
+
+
+/* Inner card iamge and content css code */
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.content .eth{
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 3%;
+}
+
+.content h1{
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.content p{
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7px;
+  padding-bottom: 13px;
+}
+
+.img1, .img2{
+  margin-right: 8px;
+}
+
+.div1{
+  margin-left: 22px;
+  margin-top: -22px;
+}
+
+.icon .span1, .span2{
+  font-size: 15px;
+  font-weight: bold;
+  color: hsl(178, 100%, 50%);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.icon .span2{
+  font-weight: normal;
+  color: hsl(215, 51%, 70%);
+}
+
+/* this is a horizontal line design css code */
+
+.line{
+  width: 95%;
+  color: hsl(215, 32%, 27%);
+}
+
+/* And this is View image and heading desgin css code */
+
+.views{
+  display: flex;
+  flex-direction: row; 
+  padding: 9px;
+}
+
+.view1{
+  width: 10%;
+  margin-right: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.views .span3{
+  font-size: 16px;
+  padding-top: 6px;
+  color: hsl(215, 51%, 70%);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+.views .span4{
+  color: white;
+}
+
+/* Attribution desgin css code */
+
+.attribution {
+    float: right;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 50px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .attribution a {
+    text-decoration: none;
+    color: yellow;
+  }
+
+/* This small code make your web Page responsive */
+
+@media screen and (max-width: 1500px) {
+  body{
+    width: auto;
+  }
+}
