@@ -9,8 +9,8 @@ body{
   background-color: hsl(217, 54%, 11%);
 }
 
-/* Card Desgin css code */
-.card{
+/* main Card Desgin css code */
+.main{
   width: 300px;
   margin: auto;
   padding: 22px;
@@ -21,18 +21,44 @@ body{
 
 
 /* Inner card iamge and content css code */
-.content{
+.card{
   display: flex;
   flex-direction: column;
 }
 
-.content .eth{
-  width: 100%;
-  margin-bottom: 5px;
-  border-radius: 3%;
+/* ACtive states img design css code */
+.viewbox1 {
+  position: relative;
+  width: 302px;
+  height: 302px;
 }
 
-.content h1{
+.viewbox1 img.equilibrium {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.viewbox1 .viewbox2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 255, 247, 0.8);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.viewbox1 .viewbox2:hover {
+  opacity: 1;
+}
+
+.card h1{
   font-size: 1.3rem;
   margin-bottom: 0px;
   color: hsl(0, 0%, 100%);
@@ -40,7 +66,12 @@ body{
   font-family: 'Outfit', sans-serif;
 }
 
-.content p{
+.card h1:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card p{
   font-size: 18px;
   color: hsl(215, 51%, 70%);
   font-family: 'Open Sans', sans-serif;
@@ -64,7 +95,7 @@ body{
   margin-top: -22px;
 }
 
-.icon .span1, .span2{
+.icon .box1, .box2{
   font-size: 15px;
   font-weight: bold;
   color: hsl(178, 100%, 50%);
@@ -72,7 +103,7 @@ body{
   font-family: 'Outfit', sans-serif;
 }
 
-.icon .span2{
+.icon .box2{
   font-weight: normal;
   color: hsl(215, 51%, 70%);
 }
@@ -109,6 +140,11 @@ body{
 
 .views .span4{
   color: white;
+}
+
+.views .span4:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 /* Attribution desgin css code */
