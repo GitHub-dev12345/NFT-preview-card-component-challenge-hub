@@ -10,7 +10,7 @@ body{
 }
 
 /* main Card Desgin css code */
-.main{
+.container{
   width: 300px;
   margin: auto;
   padding: 22px;
@@ -149,7 +149,7 @@ body{
 
 /* Attribution desgin css code */
 
-.attribution {
+footer {
     float: right;
     font-size: 1.1rem;
     font-weight: bold;
@@ -159,7 +159,7 @@ body{
     text-align: center;
   }
 
-  .attribution a {
+footer a {
     text-decoration: none;
     color: yellow;
   }
