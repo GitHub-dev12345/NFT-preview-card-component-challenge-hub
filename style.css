@@ -4,8 +4,13 @@
 font-family: 'Outfit', sans-serif; */
 
 body{
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
   width: 1440px;
-  margin: 95px auto;
   background-color: hsl(217, 54%, 11%);
 }
 
@@ -17,6 +22,7 @@ body{
   background-color:  hsl(216, 50%, 16%);
   border-radius: 3.5%;
   box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+  transform: scale(0.9);
 }
 
 /* Inner card iamge and content css code */
@@ -157,7 +163,8 @@ body{
 footer {
     font-size: 1.1rem;
     font-weight: bold;
-    padding: 50px;
+    padding: 10px;
+    margin: 10px auto;
     color: white;
     letter-spacing: 1px;
     text-align: center;
@@ -181,5 +188,11 @@ footer a:hover{
     width: auto;
     margin: 50px auto;
     transition: 0.3s;
+  }
+}
+
+@media all and (max-width: 534px) {
+  footer{
+    line-height: 1.9;
   }
 }
